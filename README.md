@@ -8,11 +8,11 @@ F22 Transhumanism Coca Project - Name TBD
 
 Here are some resources to learn how to use github and/or git:
 
-    - todo
+- todo
     
-    - todo
+- todo
     
-    - todo
+- todo
 
 
 This project uses _Conda_ for package management.
