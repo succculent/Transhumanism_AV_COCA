@@ -6,7 +6,7 @@ F22 Transhumanism Coca Project - Name TBD
 ## Setup
 
 
-Here are some resources to learn how to use github and/or git:
+Here are some resources to learn how to use github and/or git -
 
 &ensp;&ensp;&ensp;&ensp;- todo
     
