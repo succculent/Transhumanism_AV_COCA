@@ -2,8 +2,6 @@
 
 ## Setup
 
-#### Environment
-
 Here are some resources to learn how to use github and/or git:
     - todo
     - todo
@@ -18,7 +16,7 @@ This -
 
 [Here](https://docs.conda.io/en/latest/miniconda.html) is a bare-bones version of conda called _miniconda_
 
-#### Mac
+### Mac
 
 To create the environment -
 ```console
@@ -35,11 +33,11 @@ To exit the environment -
 conda deactivate
 ```
 
-#### Windows
+### Windows
 ...todo
 ...probably the same command set, but I have no way to test this
 
-#### Linux
+### Linux
 
 To create the environment -
 ```console
