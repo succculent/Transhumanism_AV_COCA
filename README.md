@@ -78,3 +78,11 @@ To exit the environment -
 ```console
 conda deactivate
 ```
+
+
+## Run
+
+To run the code once the environment has been set up and is _currently_ active  - 
+```console
+python main.py
+```
