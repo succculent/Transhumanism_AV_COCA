@@ -6,14 +6,18 @@ F22 Transhumanism Coca Project - Name TBD
 ## Setup
 
 
-Here are some resources to learn how to use github and/or git -
+Git is a great tool for collaboration and version control. Here are some resources to learn how to use git -
 
-&ensp;&ensp;&ensp;&ensp;- todo
+&ensp;&ensp;&ensp;&ensp;- https://git-scm.com/video/get-going
     
-&ensp;&ensp;&ensp;&ensp;- todo
+&ensp;&ensp;&ensp;&ensp;- _if you know any good resources please add them here_
     
-&ensp;&ensp;&ensp;&ensp;- todo
+&ensp;&ensp;&ensp;&ensp;- always remember ... commit, pull, push 
 
+Copy this repository into the current directory of your terminal
+```console
+git clone https://github.com/succculent/Transhumanism_AV_COCA.git
+```
 
 This project uses _Conda_ for package management. This - 
 
