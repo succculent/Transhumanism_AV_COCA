@@ -4,7 +4,10 @@
 
 #### Environment
 
-
+Here are some resources to learn how to use github and/or git:
+    - todo
+    - todo
+    - todo
 
 This project uses _Conda_ for package management.
 
