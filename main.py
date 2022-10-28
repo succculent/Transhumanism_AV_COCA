@@ -13,6 +13,7 @@ BPM_DELTA = 60.0 / BPM; #seconds per beat
 frame = numpy.zeros((FRAME_HEIGHT, FRAME_WIDTH, 3), dtype=numpy.uint8)
 
 def main():
+    #setup for GUI
     sg.theme('dark')
     layout = [
             [sg.Image(filename='', key='image')],
@@ -25,14 +26,16 @@ def main():
             layout, location=(600, 200))
     play = False
 
+    #audio and video class set up
+    #TODO...call constructors here
+
     # Main Event Loop for GUI
-
     time_stamp = time.time()
-
     while True:
         event, values = window.Read(timeout=1)
         if (time.time() - time_stamp >= BPM_DELTA*4):
             #SOUND TRIGGER
+            #.update()
 
             #VIDEO TRIGGER
 
