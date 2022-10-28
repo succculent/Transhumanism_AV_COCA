@@ -1,9 +1,9 @@
-from ossaudiodev import SOUND_MIXER_ALTPCM
 import numpy
 import PySimpleGUI as sg
 import os
 import sys
 import time
+from audio import Audio
 
 FRAME_WIDTH = 480
 FRAME_HEIGHT = 270
@@ -27,19 +27,13 @@ def main():
     play = False
 
     #audio and video class set up
+    a = Audio()
     #TODO...call constructors here
 
     # Main Event Loop for GUI
     time_stamp = time.time()
     while True:
         event, values = window.Read(timeout=1)
-        if (time.time() - time_stamp >= BPM_DELTA*4):
-            #SOUND TRIGGER
-            #.update()
-
-            #VIDEO TRIGGER
-
-            time_stamp = time.time()
         if event == 'Exit' or event == sg.WIN_CLOSED:
             print('Exiting')
             break
@@ -49,7 +43,13 @@ def main():
             print('Pressed Pause')
             play = False
         if (play == True):
-            print('playing')
+            if (time.time() - time_stamp >= BPM_DELTA*4):
+                #SOUND TRIGGER
+                a.update()
+
+                #VIDEO TRIGGER
+
+                time_stamp = time.time()
 
     # Close and terminate the stream
     window.Close()
