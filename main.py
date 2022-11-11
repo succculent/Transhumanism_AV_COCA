@@ -4,6 +4,7 @@ import os
 import sys
 import time
 from audio import Audio
+from text import Text
 
 FRAME_WIDTH = 480
 FRAME_HEIGHT = 270
@@ -28,7 +29,7 @@ def main():
 
     #audio and video class set up
     a = Audio()
-    #TODO...call constructors here
+    t = Text()
 
     # Main Event Loop for GUI
     time_stamp = time.time()
@@ -48,6 +49,10 @@ def main():
                 a.update()
 
                 #VIDEO TRIGGER
+                
+
+                #TEXT TRIGGER
+                t.update()
 
                 time_stamp = time.time()
 
